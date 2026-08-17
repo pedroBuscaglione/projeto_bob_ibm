@@ -9,6 +9,7 @@
 - [/trilha](#trilha-tecnologia)
 - [/desafio](#desafio-tecnologia-nível)
 - [/certificado](#certificado-nome-trilha)
+- [/teste](#teste-tecnologia-nível)
 - [Aliases suportados](#aliases-suportados)
 - [Variações de nível aceitas](#variações-de-nível-aceitas)
 
@@ -212,6 +213,81 @@ Exemplos:
   "Ana Lima"        + Python (id 1) → DIO-001-AL2025
   "Maria Silva"     + React (id 3)  → DIO-003-MS2025
 ```
+
+---
+
+## `/teste <tecnologia> <nível>`
+
+Gera um teste com 5 questões de múltipla escolha sobre a tecnologia e nível informados, com gabarito comentado ao final.
+
+**Arquivo de comando:** [`dio_explorer/commands/teste.md`](dio_explorer/commands/teste.md)
+
+### Exemplos de uso
+
+```
+/teste Java intermediário
+/teste Python básico
+/teste JavaScript avançado
+/teste react medium
+/teste aws hard
+```
+
+### Saída gerada
+
+```markdown
+# 📝 Teste — Java · Nível Intermediário
+
+> 5 questões de múltipla escolha. Responda antes de conferir o gabarito!
+
+---
+
+**Questão 1 — Coleções**
+
+Qual interface do Java representa uma coleção que não permite elementos duplicados?
+
+A) List
+B) Queue
+C) Set
+D) Deque
+
+---
+
+**Questão 2 — Exceções**
+...
+
+---
+
+## ✅ Gabarito
+
+| Questão | Resposta | Justificativa |
+|---------|----------|---------------|
+| 1 | C | A interface `Set` garante unicidade dos elementos por contrato. |
+| 2 | ...  | ... |
+...
+
+---
+
+🏆 **Pontuação máxima:** 100 pontos (20 pontos por questão)
+```
+
+### Regras de geração
+
+| Aspecto | Comportamento |
+|---|---|
+| Número de questões | Sempre **5**, numeradas de 1 a 5 |
+| Alternativas por questão | **4** (A, B, C, D) — apenas uma correta |
+| Tópicos | Cobrem aspectos **distintos** da tecnologia |
+| Gabarito | Exibido ao final com **justificativa** por questão |
+| Nível inválido | Bob pede confirmação: Básico, Intermediário ou Avançado |
+| Tecnologia inválida | Bob lista tecnologias disponíveis e pede escolha |
+
+### Relação entre nível e dificuldade das questões
+
+| Nível | Foco das questões |
+|---|---|
+| **Básico** | Conceitos fundamentais, sintaxe, definições |
+| **Intermediário** | Boas práticas, padrões de uso, comportamento esperado |
+| **Avançado** | Otimização, edge cases, arquitetura, funcionamento interno |
 
 ---
 

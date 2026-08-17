@@ -28,7 +28,8 @@ projeto_final_bob/
     ├── commands/                 ← Prompt templates do Bob
     │   ├── trilha.md             ← /trilha <tecnologia>
     │   ├── desafio.md            ← /desafio <tecnologia> <nivel>
-    │   └── certificado.md        ← /certificado <nome> <trilha>
+    │   ├── certificado.md        ← /certificado <nome> <trilha>
+    │   └── teste.md              ← /teste <tecnologia> <nivel>
     │
     ├── data/
     │   └── trilhas_dio.json      ← Base de dados — 33 trilhas DIO
@@ -208,6 +209,7 @@ Exemplos:
 
 ## Checklist de próximos passos
 
+- [x] Comando `/teste` para gerar 5 questões de múltipla escolha com gabarito
 - [ ] Templates de desafio para as 30 tecnologias restantes (hoje: Java, Python, JS)
 - [ ] Comando `/progresso` com rastreamento de trilhas concluídas por aluno
 - [ ] Persistência com SQLite ou JSON de progresso por aluno

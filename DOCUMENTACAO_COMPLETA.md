@@ -361,6 +361,15 @@ com todas as informações da trilha, data por extenso e código único.
 Adicione uma mensagem de parabenização ao final.
 ```
 
+```
+Crie commands/teste.md como prompt template do Bob para o comando /teste.
+O comando deve receber tecnologia ($1) e nível ($2) e gerar exatamente 5 questões
+de múltipla escolha com 4 alternativas (A–D) cada, cobrindo tópicos distintos.
+Ao final, exiba um gabarito com justificativa por questão e a pontuação máxima.
+Aceite variações de nível em PT e EN, e lide com tecnologias inválidas listando
+as disponíveis. Use o mesmo padrão dos outros commands/*.md.
+```
+
 ---
 
 ### Testes (Agent Mode)
@@ -569,6 +578,7 @@ Adicione uma seção no README documentando o que acabamos de implementar.
 
 ## 11. Próximos passos
 
+- [x] Adicionar o comando `/teste` para gerar 5 questões de múltipla escolha com gabarito
 - [ ] Adicionar templates de desafio para todas as 33 tecnologias
 - [ ] Criar o comando `/progresso` para rastrear trilhas concluídas por aluno
 - [ ] Implementar persistência com SQLite ou arquivo JSON de progresso
