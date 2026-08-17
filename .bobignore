@@ -1,0 +1,14 @@
+# Dependências do projeto
+node_modules/
+
+# Variáveis de ambiente
+.env
+
+# Cache de progresso das trilhas e dados temporários
+data/cache-progresso/
+
+# Certificados emitidos
+docs/certificados-emitidos/
+
+# Arquivos temporários
+*.tmp

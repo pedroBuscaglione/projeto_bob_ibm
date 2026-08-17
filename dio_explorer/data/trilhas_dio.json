@@ -1,0 +1,581 @@
+{
+  "trilhas": [
+    {
+      "id": 1,
+      "nome": "Formação Python Developer",
+      "tecnologia": "Python",
+      "nivel": "Básico",
+      "modulos": 6,
+      "xp_total": 12500,
+      "badges": [
+        "Python Essentials",
+        "Python Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Python e Ambiente de Desenvolvimento", "duracao_min": 90 },
+        { "titulo": "Python para Iniciantes: Dicas e Boas Práticas", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Formação JavaScript Developer",
+      "tecnologia": "JavaScript",
+      "nivel": "Básico",
+      "modulos": 7,
+      "xp_total": 14000,
+      "badges": [
+        "JS Foundations",
+        "JavaScript Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "JavaScript do Zero ao Avançado", "duracao_min": 120 },
+        { "titulo": "Manipulação do DOM com JS", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Formação React Developer",
+      "tecnologia": "React",
+      "nivel": "Intermediário",
+      "modulos": 8,
+      "xp_total": 18000,
+      "badges": [
+        "React Fundamentals",
+        "React Hooks Expert",
+        "React Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Criando sua Primeira Aplicação React", "duracao_min": 120 },
+        { "titulo": "Gerenciamento de Estado com Redux", "duracao_min": 90 },
+        { "titulo": "React Performance e Boas Práticas", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Formação Node.js Developer",
+      "tecnologia": "Node.js",
+      "nivel": "Intermediário",
+      "modulos": 7,
+      "xp_total": 16500,
+      "badges": [
+        "Node.js Fundamentals",
+        "Node.js Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "APIs RESTful com Node.js e Express", "duracao_min": 120 },
+        { "titulo": "Autenticação JWT em APIs Node.js", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Formação Angular Developer",
+      "tecnologia": "Angular",
+      "nivel": "Intermediário",
+      "modulos": 9,
+      "xp_total": 19500,
+      "badges": [
+        "Angular Essentials",
+        "Angular Components Expert",
+        "Angular Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Angular 17", "duracao_min": 120 },
+        { "titulo": "RxJS e Programação Reativa com Angular", "duracao_min": 90 },
+        { "titulo": "Deploy de Aplicações Angular na Nuvem", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Formação Vue.js Developer",
+      "tecnologia": "Vue.js",
+      "nivel": "Intermediário",
+      "modulos": 7,
+      "xp_total": 15000,
+      "badges": [
+        "Vue.js Fundamentals",
+        "Vue.js Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Primeiros Passos com Vue 3 e Composition API", "duracao_min": 90 },
+        { "titulo": "Pinia: Gerenciamento de Estado no Vue", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Formação Java Developer",
+      "tecnologia": "Java",
+      "nivel": "Intermediário",
+      "modulos": 10,
+      "xp_total": 22000,
+      "badges": [
+        "Java Foundations",
+        "Spring Boot Expert",
+        "Java Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "POO com Java na Prática", "duracao_min": 120 },
+        { "titulo": "APIs REST com Spring Boot", "duracao_min": 90 },
+        { "titulo": "Testes Unitários com JUnit e Mockito", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "Formação C# Developer",
+      "tecnologia": "C#",
+      "nivel": "Intermediário",
+      "modulos": 8,
+      "xp_total": 17000,
+      "badges": [
+        "C# Foundations",
+        "ASP.NET Developer",
+        "C# Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao C# e .NET 8", "duracao_min": 120 },
+        { "titulo": "Desenvolvimento Web com ASP.NET Core", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "Formação TypeScript Fullstack",
+      "tecnologia": "TypeScript",
+      "nivel": "Avançado",
+      "modulos": 9,
+      "xp_total": 21000,
+      "badges": [
+        "TypeScript Expert",
+        "Fullstack TypeScript"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "TypeScript Avançado: Tipos e Generics", "duracao_min": 90 },
+        { "titulo": "Construindo Monorepos com TypeScript e Nx", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Formação Cloud AWS",
+      "tecnologia": "Amazon Web Services",
+      "nivel": "Intermediário",
+      "modulos": 11,
+      "xp_total": 25000,
+      "badges": [
+        "AWS Cloud Practitioner",
+        "AWS Solutions Architect",
+        "AWS Cloud Expert"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Introdução aos Serviços AWS", "duracao_min": 90 },
+        { "titulo": "EC2, S3 e RDS na Prática", "duracao_min": 120 },
+        { "titulo": "Serverless com AWS Lambda", "duracao_min": 90 },
+        { "titulo": "Preparatório para Certificação AWS Cloud Practitioner", "duracao_min": 120 }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "Formação Cloud Azure",
+      "tecnologia": "Microsoft Azure",
+      "nivel": "Intermediário",
+      "modulos": 10,
+      "xp_total": 23000,
+      "badges": [
+        "Azure Fundamentals",
+        "Azure AI Services",
+        "Azure Cloud Expert"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Fundamentos do Microsoft Azure", "duracao_min": 90 },
+        { "titulo": "Azure DevOps na Prática", "duracao_min": 120 },
+        { "titulo": "IA e Cognitive Services no Azure", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "Formação Google Cloud Platform",
+      "tecnologia": "Google Cloud",
+      "nivel": "Avançado",
+      "modulos": 9,
+      "xp_total": 22500,
+      "badges": [
+        "GCP Foundations",
+        "GCP Associate Engineer",
+        "Google Cloud Expert"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Google Cloud Platform", "duracao_min": 90 },
+        { "titulo": "BigQuery e Análise de Dados na GCP", "duracao_min": 120 },
+        { "titulo": "Kubernetes no Google Kubernetes Engine", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Formação Docker e Kubernetes",
+      "tecnologia": "DevOps",
+      "nivel": "Avançado",
+      "modulos": 8,
+      "xp_total": 20000,
+      "badges": [
+        "Docker Expert",
+        "Kubernetes Practitioner",
+        "Container Orchestration Expert"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Docker do Zero: Containers na Prática", "duracao_min": 120 },
+        { "titulo": "Orquestração com Kubernetes", "duracao_min": 90 },
+        { "titulo": "CI/CD com Docker e GitHub Actions", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Formação Machine Learning com Python",
+      "tecnologia": "Machine Learning",
+      "nivel": "Avançado",
+      "modulos": 12,
+      "xp_total": 28000,
+      "badges": [
+        "Data Science Essentials",
+        "ML Practitioner",
+        "Machine Learning Engineer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Machine Learning com Scikit-Learn", "duracao_min": 120 },
+        { "titulo": "Redes Neurais e Deep Learning com TensorFlow", "duracao_min": 120 },
+        { "titulo": "MLOps: Deploy de Modelos em Produção", "duracao_min": 90 },
+        { "titulo": "Kaggle na Prática: Competições de ML", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "Formação Inteligência Artificial Generativa",
+      "tecnologia": "Generative AI",
+      "nivel": "Avançado",
+      "modulos": 10,
+      "xp_total": 26000,
+      "badges": [
+        "GenAI Foundations",
+        "Prompt Engineer",
+        "Generative AI Expert"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "LLMs: Como Funcionam os Grandes Modelos de Linguagem", "duracao_min": 90 },
+        { "titulo": "Criando Aplicações com OpenAI API", "duracao_min": 120 },
+        { "titulo": "RAG: Retrieval-Augmented Generation na Prática", "duracao_min": 90 },
+        { "titulo": "Fine-tuning de Modelos Generativos", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Formação Engenharia de Dados",
+      "tecnologia": "Data Engineering",
+      "nivel": "Avançado",
+      "modulos": 11,
+      "xp_total": 27000,
+      "badges": [
+        "Data Pipeline Builder",
+        "Apache Spark Practitioner",
+        "Data Engineer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Pipelines de Dados com Apache Airflow", "duracao_min": 120 },
+        { "titulo": "Spark e PySpark para Engenharia de Dados", "duracao_min": 90 },
+        { "titulo": "Data Lakehouse com Databricks", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "Formação SQL e Banco de Dados Relacional",
+      "tecnologia": "SQL",
+      "nivel": "Básico",
+      "modulos": 6,
+      "xp_total": 11000,
+      "badges": [
+        "SQL Fundamentals",
+        "Database Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "SQL do Zero: Consultas e Modelagem", "duracao_min": 90 },
+        { "titulo": "PostgreSQL na Prática", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "Formação MongoDB e Bancos NoSQL",
+      "tecnologia": "NoSQL",
+      "nivel": "Intermediário",
+      "modulos": 7,
+      "xp_total": 14500,
+      "badges": [
+        "MongoDB Essentials",
+        "NoSQL Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "MongoDB: Modelagem de Dados Não Relacionais", "duracao_min": 90 },
+        { "titulo": "Redis e Caching em Aplicações Modernas", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "Formação Segurança da Informação",
+      "tecnologia": "Cybersecurity",
+      "nivel": "Intermediário",
+      "modulos": 9,
+      "xp_total": 21500,
+      "badges": [
+        "Cybersecurity Essentials",
+        "Ethical Hacker",
+        "Security Analyst"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Fundamentos de Cibersegurança", "duracao_min": 90 },
+        { "titulo": "Pentest com Kali Linux na Prática", "duracao_min": 120 },
+        { "titulo": "LGPD e Segurança de Dados nas Empresas", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "Formação Flutter Developer",
+      "tecnologia": "Flutter",
+      "nivel": "Intermediário",
+      "modulos": 8,
+      "xp_total": 17500,
+      "badges": [
+        "Flutter Foundations",
+        "Dart Developer",
+        "Flutter Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Flutter do Zero: Seu Primeiro App", "duracao_min": 120 },
+        { "titulo": "Consumo de APIs REST com Flutter", "duracao_min": 90 },
+        { "titulo": "State Management com Bloc e Provider", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "Formação React Native Developer",
+      "tecnologia": "React Native",
+      "nivel": "Intermediário",
+      "modulos": 8,
+      "xp_total": 17000,
+      "badges": [
+        "React Native Essentials",
+        "Mobile Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "React Native: Criando Apps Cross-Platform", "duracao_min": 120 },
+        { "titulo": "Publicando seu App na Play Store e App Store", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 22,
+      "nome": "Formação Kotlin Android Developer",
+      "tecnologia": "Kotlin",
+      "nivel": "Intermediário",
+      "modulos": 9,
+      "xp_total": 19000,
+      "badges": [
+        "Kotlin Essentials",
+        "Android Developer",
+        "Kotlin Android Expert"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Kotlin para Android", "duracao_min": 90 },
+        { "titulo": "Jetpack Compose: UI Moderna no Android", "duracao_min": 120 },
+        { "titulo": "Coroutines e Flow no Android", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "Formação Swift iOS Developer",
+      "tecnologia": "Swift",
+      "nivel": "Avançado",
+      "modulos": 10,
+      "xp_total": 23500,
+      "badges": [
+        "Swift Foundations",
+        "iOS Developer",
+        "SwiftUI Expert"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Swift e Xcode", "duracao_min": 90 },
+        { "titulo": "SwiftUI: Interfaces Declarativas para iOS", "duracao_min": 120 },
+        { "titulo": "Persistência de Dados com Core Data", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Formação DevOps e CI/CD",
+      "tecnologia": "DevOps",
+      "nivel": "Avançado",
+      "modulos": 10,
+      "xp_total": 24000,
+      "badges": [
+        "DevOps Practitioner",
+        "CI/CD Specialist",
+        "DevOps Engineer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Git e GitHub para Times de Desenvolvimento", "duracao_min": 90 },
+        { "titulo": "Pipeline CI/CD com Jenkins e GitHub Actions", "duracao_min": 120 },
+        { "titulo": "Infrastructure as Code com Terraform", "duracao_min": 90 },
+        { "titulo": "Monitoramento com Prometheus e Grafana", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 25,
+      "nome": "Formação Arquitetura de Microsserviços",
+      "tecnologia": "Microsserviços",
+      "nivel": "Avançado",
+      "modulos": 11,
+      "xp_total": 26500,
+      "badges": [
+        "Microservices Fundamentals",
+        "Event-Driven Architecture",
+        "Microservices Architect"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Padrões de Microsserviços: Saga, CQRS e Event Sourcing", "duracao_min": 120 },
+        { "titulo": "Comunicação Assíncrona com Apache Kafka", "duracao_min": 90 },
+        { "titulo": "API Gateway e Service Mesh com Istio", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 26,
+      "nome": "Formação UI/UX Design",
+      "tecnologia": "Design",
+      "nivel": "Básico",
+      "modulos": 7,
+      "xp_total": 13000,
+      "badges": [
+        "UX Research",
+        "Figma Designer",
+        "UI/UX Designer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Fundamentos de UX: Pesquisa e Personas", "duracao_min": 90 },
+        { "titulo": "Prototipagem no Figma do Zero", "duracao_min": 120 },
+        { "titulo": "Design System: Criando Componentes Reutilizáveis", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "Formação Blockchain e Web3 Developer",
+      "tecnologia": "Blockchain",
+      "nivel": "Avançado",
+      "modulos": 9,
+      "xp_total": 22000,
+      "badges": [
+        "Blockchain Foundations",
+        "Solidity Developer",
+        "Web3 Expert"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Fundamentos de Blockchain e Criptomoedas", "duracao_min": 90 },
+        { "titulo": "Smart Contracts com Solidity na Prática", "duracao_min": 120 },
+        { "titulo": "Desenvolvendo DApps com Ethers.js e Web3.js", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 28,
+      "nome": "Formação Go Developer",
+      "tecnologia": "Go (Golang)",
+      "nivel": "Intermediário",
+      "modulos": 8,
+      "xp_total": 18500,
+      "badges": [
+        "Go Foundations",
+        "Go Concurrency Expert",
+        "Go Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao Go: Sintaxe e Conceitos", "duracao_min": 90 },
+        { "titulo": "APIs de Alta Performance com Go e Fiber", "duracao_min": 120 },
+        { "titulo": "Goroutines e Channels: Concorrência no Go", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "Formação Rust Developer",
+      "tecnologia": "Rust",
+      "nivel": "Avançado",
+      "modulos": 10,
+      "xp_total": 24500,
+      "badges": [
+        "Rust Foundations",
+        "Systems Programming",
+        "Rust Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Rust do Zero: Ownership e Borrowing", "duracao_min": 120 },
+        { "titulo": "Sistemas de Alta Performance com Rust", "duracao_min": 90 },
+        { "titulo": "WebAssembly com Rust", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "Formação Power BI e Análise de Dados",
+      "tecnologia": "Power BI",
+      "nivel": "Básico",
+      "modulos": 6,
+      "xp_total": 12000,
+      "badges": [
+        "Power BI Essentials",
+        "Data Analyst"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Power BI do Zero: Dashboards Profissionais", "duracao_min": 90 },
+        { "titulo": "DAX Avançado para Análise de Negócios", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 31,
+      "nome": "Formação QA e Testes de Software",
+      "tecnologia": "Quality Assurance",
+      "nivel": "Intermediário",
+      "modulos": 8,
+      "xp_total": 16000,
+      "badges": [
+        "QA Fundamentals",
+        "Test Automation",
+        "QA Engineer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Fundamentos de Testes de Software", "duracao_min": 90 },
+        { "titulo": "Automação de Testes com Cypress", "duracao_min": 120 },
+        { "titulo": "Testes de Performance com k6 e JMeter", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 32,
+      "nome": "Formação GraphQL Developer",
+      "tecnologia": "GraphQL",
+      "nivel": "Intermediário",
+      "modulos": 6,
+      "xp_total": 13500,
+      "badges": [
+        "GraphQL Foundations",
+        "API Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Introdução ao GraphQL: Queries, Mutations e Subscriptions", "duracao_min": 90 },
+        { "titulo": "GraphQL com Apollo Server e React", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 33,
+      "nome": "Formação Next.js Fullstack",
+      "tecnologia": "Next.js",
+      "nivel": "Avançado",
+      "modulos": 9,
+      "xp_total": 21000,
+      "badges": [
+        "Next.js Essentials",
+        "SSR & SSG Expert",
+        "Next.js Fullstack Developer"
+      ],
+      "lives_ao_vivo": [
+        { "titulo": "Next.js 14: App Router e Server Components", "duracao_min": 120 },
+        { "titulo": "Autenticação com NextAuth.js", "duracao_min": 90 },
+        { "titulo": "Deploy de Aplicações Next.js na Vercel e AWS", "duracao_min": 60 }
+      ]
+    }
+  ]
+}
